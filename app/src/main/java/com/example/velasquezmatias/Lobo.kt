@@ -55,8 +55,8 @@ class Lobo() : Creep(vida= 0, mana = 0,ataque = 0, defensa = 0, velocidad = 0, N
         var nuevaDefensa :Int = 0
 
         nuevaVida = this.vida + (this.nivel.nivel*5);
-        nuevaMana = this.mana + (this.nivel.nivel*3)
-        nuevoAtaque = this.ataque + (this.nivel.nivel * 2)
+        nuevaMana = this.mana + (this.nivel.nivel*2)
+        nuevoAtaque = this.ataque + (this.nivel.nivel * 4)
         nuevaDefensa = this.defensa + (this.nivel.nivel * 2)
 
         this.vida = nuevaVida
